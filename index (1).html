@@ -1,0 +1,659 @@
+<html>
+  <head>
+    <style>
+      .home {
+        height: 30px;
+
+        width: 120px;
+
+        font-style: bold;
+
+        background-color: #4dabf7;
+
+        color: white;
+
+        font-size: 20px;
+
+        border-color: transparent;
+      }
+
+      .causes {
+        height: 30px;
+
+        width: 120px;
+
+        font-style: bold;
+
+        background-color: #ffd43b;
+
+        color: white;
+
+        font-size: 20px;
+
+        border-color: transparent;
+      }
+
+      .prevention {
+        height: 30px;
+
+        width: 120px;
+
+        font-style: bold;
+
+        background-color: #f783ac;
+
+        color: white;
+
+        font-size: 20px;
+
+        border-color: transparent;
+      }
+
+      .green {
+        height: 30px;
+
+        width: 120px;
+
+        font-style: bold;
+
+        background-color: #a9e34b;
+
+        color: white;
+
+        font-size: 20px;
+
+        border-color: transparent;
+      }
+
+      .quiz {
+        height: 30px;
+
+        width: 120px;
+
+        font-style: bold;
+
+        background-color: white;
+
+        color: black;
+
+        font-size: 20px;
+
+        border-color: transparent;
+      }
+
+      .flex-container {
+        display: flex;
+
+        justify-content: space-between;
+      }
+
+      .p1 {
+        color: white;
+
+        font-family: Calibri;
+
+        font-style: italic;
+
+        font-size: 25px;
+      }
+
+      .img {
+        height: 350px;
+
+        width: 700px;
+
+        display: block;
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+        float: left;
+
+        padding: 10px;
+      }
+
+      .row {
+        display: flex;
+      }
+
+      .h1 {
+        color: #d9480f;
+
+        font-size: 30px;
+
+        font-family: Comic Sans MS;
+
+        font-style: bold-italic;
+      }
+
+      .p2 {
+        color: white;
+
+        font-family: Calibri;
+
+        font-style: italic;
+
+        font-size: 25px;
+      }
+
+      .h2 {
+        color: #d9480f;
+
+        font-size: 30px;
+
+        font-family: Comic Sans MS;
+
+        font-style: bold-italic;
+      }
+
+      .p3 {
+        color: white;
+
+        font-family: Calibri;
+
+        font-style: italic;
+
+        font-size: 25px;
+      }
+
+      .h3 {
+        color: #d9480f;
+
+        font-size: 30px;
+
+        font-family: Comic Sans MS;
+
+        font-style: bold-italic;
+      }
+
+      .p4 {
+        color: white;
+
+        font-family: Calibri;
+
+        font-style: italic;
+
+        font-size: 25px;
+      }
+
+      .h4 {
+        color: #d9480f;
+
+        font-size: 30px;
+
+        font-family: Comic Sans MS;
+
+        font-style: bold-italic;
+      }
+
+      .p5 {
+        color: white;
+
+        font-family: Calibri;
+
+        font-style: italic;
+
+        font-size: 25px;
+      }
+
+      .p6 {
+        color: #7048e8;
+
+        font-family: Monotype Corsiva;
+
+        font-style: bold-italic;
+
+        font-size: 35px;
+      }
+
+      .img1 {
+        height: 300px;
+
+        weight: 600px;
+
+        float: right;
+      }
+
+      .p7 {
+        color: #364fc7;
+
+        font-family: Arial Unicode MS;
+
+        font-style: oblique;
+
+        font-size: 30px;
+      }
+
+      .img2 {
+        height: 300px;
+
+        weight: 600px;
+
+        float: right;
+
+        vertical-align: 128%;
+
+        display: block;
+      }
+
+      .p8 {
+        color: white;
+
+        font-family: Comic Sans MS;
+
+        font-style: italic;
+
+        font-size: 30px;
+      }
+
+      .h5 {
+        color: #087f5b;
+
+        font-size: 30px;
+
+        font-family: Comic Sans MS;
+
+        font-style: bold-italic;
+      }
+
+      .h6 {
+        color: #fd7e14;
+
+        font-size: 30px;
+
+        font-family: Comic Sans MS;
+
+        font-style: bold-italic;
+      }
+
+      .p9 {
+        color: black;
+
+        font-family: Comic Sans MS;
+
+        font-style: italic;
+
+        font-size: 30px;
+      }
+
+      .btn-answer {
+        border-radius: 30px;
+
+        font-size: 30px;
+
+        margin: 10px;
+      }
+
+.submit
+{
+font-size:40px;
+background-color:green;
+color:white;
+}
+
+.result
+{
+font-size:60px;
+
+}
+
+.p10
+{
+font-size:30px;
+}
+    </style>
+
+    <script>
+      function myFunction() {
+        document.body.style.backgroundColor = "#4dabf7";
+
+        const markup = `
+                      <p class="p1">
+                          Pollution is the introduction of contaminants into the natural
+                          environment that cause adverse change. Pollution can take the form of
+                          any substance or energy. Pollutants, the components of pollution, can be
+                          either foreign substances/energies or naturally occurring contaminants.
+                          Although environmental pollution can be caused by natural events, the
+                          word pollution generally implies that the contaminants have an
+                          anthropogenic source – that is, a source created by human activities.
+                          Pollution is often classed as point source or nonpoint source pollution.
+                          In 2015, pollution killed 9 million people worldwide. Major forms of
+                          pollution include air pollution, light pollution, noise pollution,
+                          plastic pollution, soil contamination, radioactive contamination,
+                          thermal pollution, visual pollution, and water pollution.
+                        </p>
+                        <marquee>
+                          <div class="row">
+                            <img class="img" src="img1.jpg" alt="air pollution" />
+                            <img class="img" src="img2.jpg" alt="noise pollution" />
+                            <img class="img" src="img3.jpg" alt="all pollution" />
+                            <img class="img" src="img4.jpg" alt="land pollution" />
+                            <img class="img" src="img5.jpg" alt="water pollution" />
+                          </div>
+                        </marquee>
+                        <h1 class="h1">1. Air Pollution:-</h1>
+                        <p class="p2">
+                          Air pollution is the contamination of air due to the presence of
+                          substances in the atmosphere that are harmful to the health of humans
+                          and other living beings, or cause damage to the climate or to materials.
+                          There are many different types of air pollutants, such as gases,
+                          particulates, and biological molecules.
+                        </p>
+                        <h1 class="h2">2. Noise Pollution:-</h1>
+                        <p class="p3">
+                          Noise pollution, also known as environmental noise or sound pollution,
+                          is the propagation of noise with ranging impacts on the activity of
+                          human or animal life, most of them harmful to a degree. The source of
+                          outdoor noise worldwide is mainly caused by machines, transport, and
+                          propagation systems.
+                        </p>
+                        <h1 class="h3">3. Land Pollution:-</h1>
+                        <p class="p4">
+                          Soil contamination, soil pollution, or land pollution as a part of land
+                          degradation is caused by the presence of xenobiotic chemicals or other
+                          alteration in the natural soil environment. It is typically caused by
+                          industrial activity, agricultural chemicals or improper disposal of
+                          waste.
+                        </p>
+                        <h1 class="h4">4. Water Pollution:-</h1>
+                        <p class="p5">
+                          Water pollution is the contamination of water bodies, usually as a
+                          result of human activities, in such a manner that negatively affects its
+                          legitimate uses. Water pollution reduces the ability of the body of
+                          water to provide the ecosystem services that it would otherwise provide.
+                        </p>`;
+        document.querySelector(".content").textContent = "";
+        document
+          .querySelector(".content")
+          .insertAdjacentHTML("afterbegin", markup);
+      }
+
+      function myCauses() {
+        document.body.style.backgroundColor = "#ffd43b";
+
+        const markup = `<p class="p6">
+                      Cause, also known as etiology and aetiology, is the reason or origination of something. 
+                      The word etiology is derived from the Greek αἰτιολογία, aitiologia, "giving a reason for".
+                      </p>
+                      <img class="img1"  src="img6.jpg" alt="air pollution">
+                      <h1 class="h4">Causes of Air Pollution</h1>
+                              <p class="p6">* The Burning of Fossil Fuels</p>
+                              <p class="p6">* Industrial Emission </p>
+                              <p class="p6">* Transportation</p>
+                              <p class="p6">* Open Burning of Garbage Waste</p>
+                              <p class="p6">* Wildfires</p>
+                      <img class="img1"  src="img8.jpg" alt="noise pollution">
+                      <h1 class="h4">Causes of Noise Pollution</h1>
+                              <p class="p6">* Industrialisation</p>
+                              <p class="p6">* Vehicles</p>
+                              <p class="p6">* Events</p>
+                              <p class="p6">* Construction sites</p>
+                              <p class="p6">* Household Chores</p>
+                      <img class="img1"  src="img9.jpg" alt="land pollution">
+                      <h1 class="h4">Causes of Land Pollution</h1>
+                              <p class="p6">* Use of harmful chemical</p>
+                              <p class="p6">* Litter </p>
+                              <p class="p6">* Exessive use of Plastic</p>
+                              <p class="p6">* Factories</p>
+                              <p class="p6">* Mining</p>
+                      <img class="img1"  src="img10.jpg" alt="water pollution">
+                      <h1 class="h4">Causes of Water Pollution</h1>
+                              <p class="p6">* Improper sewage disposal</p>
+                              <p class="p6">* Industrial waste </p>
+                              <p class="p6">* Marine Dumping</p>
+                              <p class="p6">* Agriculture</p>
+                              <p class="p6">*Global Warming</p>`;
+        document.querySelector(".content").textContent = "";
+
+        document
+          .querySelector(".content")
+          .insertAdjacentHTML("afterbegin", markup);
+      }
+
+      function myPrevention() {
+        document.body.style.backgroundColor = "#f783ac";
+
+        const markup = `<p class="p7">
+                      The action of stopping something from happening or arising is called Prevention.</p>
+                      <img class="img2" src="iim1.jpg">
+                      <h1 class="h4">Ways of preventing Air Pollution:-</h1>
+                      <p class="p7">*Using public transports</p>
+                      <p class="p7">* Say NO to plastic bags</p>
+                      <p class="p7">*Turn off the lights when not in use</p>
+                      <p class="p7">*Avoid usage of crackers</p>
+                      <p class="p7">* Implement Afforestation</p>
+                      <img class="img2" src="iim3.jpg">
+                      <h1 class="h4">Ways of preventing Noise Pollution:-</h1>
+                      <p class="p7">*Honking in public places like schools, hospital, etc. should be banned.</p>
+                      <p class="p7">* Use Lubricants </p>
+                      <p class="p7">*Plant Trees</p>
+                      <p class="p7">*Don’t blast music on your computer or music system</p>
+                      <p class="p7">* Avoid usage of crackers </p>
+                      <img class="img2" src="iim2.jpg">
+                      <h1 class="h4">Ways of preventing Land Pollution:-</h1>
+                      <p class="p7">*Reuse, Reduce and Recycle</p>
+                      <p class="p7">* Say NO to plastic bags</p>
+                      <p class="p7">*Avoid usage of  harmful chemicals</p>
+                      <p class="p7">*Avoid littering</p>
+                      <p class="p7">* Implement Afforestation</p>
+                      <img class="img2" src="iim6.jpg">
+                      <h1 class="h4">Ways of preventing Water Pollution:-</h1>
+                      <p class="p7">*Avoid disposing garbage in water</p>
+                      <p class="p7">* Say NO to plastic bags</p>
+                      <p class="p7">*Dispose of Medical Waste Properly</p>
+                      <p class="p7">*Dispose of Toxic Chemicals Properly </p>
+                      <p class="p7">* Plant trees</p>`;
+
+        document.querySelector(".content").textContent = "";
+
+        document
+          .querySelector(".content")
+          .insertAdjacentHTML("afterbegin", markup);
+      }
+
+      function myGreen() {
+        document.body.style.backgroundColor = "#a9e34b";
+
+        const markup = `<p class="p8">
+                      A city that promotes energy efficiency and renewable energy in all its activities, extensively promotes green solutions, 
+                    applies land compactness with mixed land use and social mix practices in its planning systems, and anchors its local development in the
+                    principles of green growth and equity.
+                          </p>
+                    <h1 class="h5">How to make a GREEN and BEAUTIFUL city?</h1>
+                    <h3 class="h6"># COMMUNITY GARDEN</h3>
+                    <p class="p8">
+                    Concrete buildings standing at every corner of the street with no green spaces in societies, the world has lost its soul. 
+                    Building community parks in every society helps bring in soul to the environment and works as an interactive space for people 
+                    in the community to come together and spend time together.
+                    </p> 
+                    <h3 class="h6"># SMART ENERGY POLICIES</h3>
+                    <p class="p8">
+                    Introducing Smart energy policies in the city will help the city turn greener. Renewable energy sources help in generating
+                    electricity and do not release harmful gases to the environment. Solar panels installed on the roof, energy generated through wind 
+                    and water, and energy through biodegradables help in keeping the environment eco friendly and benefit its people.
+                    </p> 
+                    <h3 class="h6"># ENCOURAGE BICYCLING AMONG CITIZENS</h3>
+                    <p class="p8">
+                    The population is increasing day by day and hence the use of cars is also increasing which releases harmful 
+                    gases in the environment. Creating bicycling lanes and encouraging people to use them helps create the city greener and
+                    keeps the user healthy as well.
+                    </p> 
+                    <h3 class="h6"># REDUCE, REUSE AND RECYCLE</h3>
+                    <p class="p8">
+                    Recycling waste products and using them helps keep the city green and the environment eco-friendly by reusing the 
+                    old products again in a creative way. Reducing the use of energy sources that releases harmful gases and pollutes the environment.
+                    </p> 
+                    <h3 class="h6"># URBAN FORESTRY</h3>
+                    <p class="p8">
+                    Taking care of the urban plants and managing the tree populations in urban settings help in improving the environment and helps the 
+                    city stay green. It improves the air quality in the surrounding. The act of urban forestry also helps improve the mental health of people 
+                    in fast-paced life in the cities and even provides potential habitat for urban wildlife. 
+                    </p> 
+                    <h3 class="h6">#  GOOD GREEN FUN</h3>
+                    <p class="p8">
+                    The city life is considered to be busy hence when going green it does not only mean to make the city green and create parks but also 
+                    create opportunities for the people to have fun while going green. Celebrating eco-friendly lifestyles of the farmer’s market and exhibiting
+                    ecologically-minded artists that promote the idea of going green. 
+                    </p> 
+                    `;
+
+        document.querySelector(".content").textContent = "";
+
+        document
+          .querySelector(".content")
+          .insertAdjacentHTML("afterbegin", markup);
+      }
+
+      let count = 0;
+
+      function setColor(element, colorToBeSet) {
+        element.style.backgroundColor = colorToBeSet;
+
+        if (element.style.backgroundColor === "green") {
+          count += 1;
+        }
+      }
+
+      function submit(element) {
+        console.log(count);
+        document.querySelector(".content").insertAdjacentHTML(
+          "beforeend",
+          `
+                      <p class="result"> Result: ${count} </p>
+                      `
+        );
+      }
+
+      function myQuiz() {
+        document.body.style.backgroundColor = "white";
+
+        const markup = `<p class="p9">Q1. Which is the most polluted city of India?</p>
+                      <input type="button" id="pollutedCity" class="btn-answer"  value = "New Delhi" onclick="setColor(this,'green')"/><br>
+                      <input type="button" class="btn-answer"  value = "Kolkata" onclick="setColor(this,'red')"/><br>
+                      <input type="button" class="btn-answer"  value = "Chennai" onclick="setColor(this,'red')"/>
+                      <p class="p9">Q2. Which is the greenest city of India?</p>
+                      <input type="button" class="btn-answer"  value = "Dispur" onclick="setColor(this,'red')"/><br>
+                      <input type="button" class="btn-answer"  value = "Mysore" onclick="setColor(this,'green')"/><br>
+                      <input type="button" class="btn-answer"  value = "Indore" onclick="setColor(this,'red')"/>
+                      <p class="p9">Q3. Which is the cleanest city of India?</p>
+                      <input type="button" class="btn-answer"  value = "Indore" onclick="setColor(this,'green')"/><br>
+                      <input type="button" class="btn-answer"  value = "Mumbai" onclick="setColor(this,'red')"/><br>
+                      <input type="button" class="btn-answer"  value = "Jaipur" onclick="setColor(this,'red')"/>
+                      <p class="p9">Q4. Which is the least polluted country of world?</p>
+                      <input type="button" class="btn-answer"  value = "Australia" onclick="setColor(this,'red')"/><br>
+                      <input type="button" class="btn-answer"  value = "India" onclick="setColor(this,'red')"/><br>
+                      <input type="button" class="btn-answer"  value = "Norway" onclick="setColor(this,'green')"/>
+                      <p class="p9">Q5. Which of the following way is NOT responsible for making a green city?</p>
+                      <input type="button" class="btn-answer"  value = "Community garden" onclick="setColor(this,'red')"/><br>
+                      <input type="button" class="btn-answer"  value = "Industrialisation" onclick="setColor(this,'green')"/><br>
+                      <input type="button" class="btn-answer"  value = "Recycle,Reduce and Reuse" onclick="setColor(this,'red')"/>
+                      <p class="p9">Q6. What do you understand by Green city?</p>
+                      <input type="button" class="btn-answer"  value = "a green and clean city" onclick="setColor(this,'green')"/><br>
+                      <input type="button" class="btn-answer"  value = "a green and unclean city " onclick="setColor(this,'red')"/><br>
+                      <input type="button" class="btn-answer"  value = "a city with many industries" onclick="setColor(this,'red')"/>
+                      <p class="p9">Q7. By which of the following way Air pollution is caused?</p>
+                      <input type="button" class="btn-answer"  value = "spliting" onclick="setColor(this,'red')"/><br>
+                      <input type="button" class="btn-answer"  value = "using loud speakers" onclick="setColor(this,'red')"/><br>
+                      <input type="button" class="btn-answer"  value = "firing crackers" onclick="setColor(this,'green')"/>
+                      <p class="p9">Q8. How can we prevent Water pollution?</p>
+                      <input type="button" class="btn-answer"  value = "stop using loud speakers in water" onclick="setColor(this,'red')"/><br>
+                      <input type="button" class="btn-answer"  value = "stop throwing harmful chemicals in water" onclick="setColor(this,'green')"/><br>
+                      <input type="button" class="btn-answer"  value = "stop burning wood " onclick="setColor(this,'red')"/><br><br>
+
+                      <input type="button" class="submit" value="Submit" onclick="submit(this)"/> <p class="p10">After submitting please scroll down for result.</p>
+                      `;
+
+        document.querySelector(".content").textContent = "";
+
+        document
+          .querySelector(".content")
+          .insertAdjacentHTML("afterbegin", markup);
+      }
+    </script>
+  </head>
+
+  <body bgcolor="#4dabf7">
+    <div class="flex-container">
+      <button class="home" onclick="myFunction()">Home</button>
+
+      <button class="causes" onclick="myCauses()">Causes</button>
+
+      <button class="prevention" onclick="myPrevention()">Preventions</button>
+
+      <button class="green" onclick="myGreen()">Green City</button>
+
+      <button class="quiz" onclick="myQuiz()">Quiz</button>
+    </div>
+
+    <div class="content">
+      <p class="p1">
+        Pollution is the introduction of contaminants into the natural
+        environment that cause adverse change. Pollution can take the form of
+        any substance or energy. Pollutants, the components of pollution, can be
+        either foreign substances/energies or naturally occurring contaminants.
+        Although environmental pollution can be caused by natural events, the
+        word pollution generally implies that the contaminants have an
+        anthropogenic source – that is, a source created by human activities.
+        Pollution is often classed as point source or nonpoint source pollution.
+        In 2015, pollution killed 9 million people worldwide. Major forms of
+        pollution include air pollution, light pollution, noise pollution,
+        plastic pollution, soil contamination, radioactive contamination,
+        thermal pollution, visual pollution, and water pollution.
+      </p>
+
+      <marquee>
+        <div class="row">
+          <img class="img" src="img1.jpg" alt="air pollution" />
+
+          <img class="img" src="img2.jpg" alt="noise pollution" />
+
+          <img class="img" src="img3.jpg" alt="all pollution" />
+
+          <img class="img" src="img4.jpg" alt="land pollution" />
+
+          <img class="img" src="img5.jpg" alt="water pollution" />
+        </div>
+      </marquee>
+
+      <h1 class="h1">1. Air Pollution:-</h1>
+
+      <p class="p2">
+        Air pollution is the contamination of air due to the presence of
+        substances in the atmosphere that are harmful to the health of humans
+        and other living beings, or cause damage to the climate or to materials.
+        There are many different types of air pollutants, such as gases,
+        particulates, and biological molecules.
+      </p>
+
+      <h1 class="h2">2. Noise Pollution:-</h1>
+
+      <p class="p3">
+        Noise pollution, also known as environmental noise or sound pollution,
+        is the propagation of noise with ranging impacts on the activity of
+        human or animal life, most of them harmful to a degree. The source of
+        outdoor noise worldwide is mainly caused by machines, transport, and
+        propagation systems.
+      </p>
+
+      <h1 class="h3">3. Land Pollution:-</h1>
+
+      <p class="p4">
+        Soil contamination, soil pollution, or land pollution as a part of land
+        degradation is caused by the presence of xenobiotic chemicals or other
+        alteration in the natural soil environment. It is typically caused by
+        industrial activity, agricultural chemicals or improper disposal of
+        waste.
+      </p>
+
+      <h1 class="h4">4. Water Pollution:-</h1>
+
+      <p class="p5">
+        Water pollution is the contamination of water bodies, usually as a
+        result of human activities, in such a manner that negatively affects its
+        legitimate uses. Water pollution reduces the ability of the body of
+        water to provide the ecosystem services that it would otherwise provide.
+      </p>
+    </div>
+  </body>
+</html>
